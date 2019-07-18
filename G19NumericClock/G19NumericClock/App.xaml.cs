@@ -16,7 +16,7 @@ namespace G19NumericClock
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            LogitechLcd.Instance.init("Numeric Clock", LcdType.Color | LcdType.Mono);
+            LogitechLcd.Instance.Init("Numeric Clock", LcdType.Color | LcdType.Mono);
         }
     }
 }
